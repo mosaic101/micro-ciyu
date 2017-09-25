@@ -1,0 +1,26 @@
+<view class="main">
+  <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="100%" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="selected">
+    <view class="phone">
+      <button type="primary" size="mini" bindtap="callPhone">联系电话</button>
+    </view>
+    <view class="select-bottom">
+        <image src="/images/cy_1.jpg"></image>
+    </view>
+    <view class="select-bottom">
+        <image src="/images/cy_2.jpg"></image>
+    </view>
+    <view class="select-bottom">
+        <image src="/images/cy_3.jpg"></image>
+    </view>
+    <view class="phone">
+      <button type="primary" size="mini" bindtap="callPhone">联系电话</button>
+    </view>
+  </view>
+</view>

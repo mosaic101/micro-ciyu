@@ -1,0 +1,19 @@
+{
+  "pages": [
+      "pages/index/index",
+      "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTextStyle": "#ffffff",
+    "navigationBarTitleText": "美白淡斑瓷玉",
+    "navigationBarBackgroundColor": "#AB956D",
+    "backgroundColor": "#eeeeee"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
