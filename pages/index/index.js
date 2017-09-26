@@ -1,9 +1,8 @@
 Page({
   data: {
     imgUrls: [
-      '/images/b1.jpg',
-      '/images/b2.jpg',
-      '/images/b3.jpg'
+      '/images/b_1.jpg',
+      '/images/b_2.jpg'
     ],
     indicatorDots: false,
     autoplay: false,
@@ -18,7 +17,7 @@ Page({
   // Event handler.
   callPhone: function() {
     wx.makePhoneCall({
-      phoneNumber: '17621903525'
+      phoneNumber: '18457393073'
     })
   }
 })

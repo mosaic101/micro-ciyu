@@ -1,4 +1,4 @@
-<view class="main">
+<view class="index">
   <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
     <block wx:for="{{imgUrls}}" wx:key="{{index}}">
       <swiper-item>
@@ -6,18 +6,18 @@
       </swiper-item>
     </block>
   </swiper>
-  <view class="selected">
+  <view class="detail">
     <view class="phone">
       <button type="primary" size="mini" bindtap="callPhone">联系电话</button>
     </view>
-    <view class="select-bottom">
-        <image src="/images/cy_1.jpg"></image>
+    <view class="self">
+      <image src="/images/self_1.jpg" mode="widthFix"></image>
     </view>
-    <view class="select-bottom">
-        <image src="/images/cy_2.jpg"></image>
+    <view class="detail-img">
+      <image src="/images/detail_2.jpg" mode="widthFix"></image>
     </view>
-    <view class="select-bottom">
-        <image src="/images/cy_3.jpg"></image>
+    <view class="detail-img">
+      <image src="/images/detail_3.jpg" mode="widthFix"></image>
     </view>
     <view class="phone">
       <button type="primary" size="mini" bindtap="callPhone">联系电话</button>
