@@ -6,10 +6,7 @@
       </swiper-item>
     </block>
   </swiper>
-  <view class="detail">
-    <view class="phone">
-      <button type="primary" size="mini" bindtap="callPhone">联系电话</button>
-    </view>
+  <view class="detail pb50">
     <view class="self">
       <image src="/images/self_1.jpg" mode="widthFix"></image>
     </view>
@@ -19,8 +16,12 @@
     <view class="detail-img">
       <image src="/images/detail_3.jpg" mode="widthFix"></image>
     </view>
-    <view class="phone">
+    <!-- <view class="phone">
       <button type="primary" size="mini" bindtap="callPhone">联系电话</button>
-    </view>
+    </view> -->
+   
+  </view>
+  <view class="phone">
+      <a bindtap="copyContent">点击复制微信号</a>
   </view>
 </view>

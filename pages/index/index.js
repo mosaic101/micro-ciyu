@@ -19,5 +19,21 @@ Page({
     wx.makePhoneCall({
       phoneNumber: '18457393073'
     })
+  },
+  copyContent:function() {  
+    wx.setClipboardData({
+      data: '胡珂是小仙女儿',
+      success: function (res) {
+        wx.getClipboardData({
+          success: function (res) {
+            wx.showToast({
+              title: '复制成功！',
+              icon: 'success',
+              duration: 2000
+            })
+          }
+        })
+      }
+    })
   }
 })
