@@ -22,7 +22,7 @@ Page({
   },
   copyContent:function() {  
     wx.setClipboardData({
-      data: '胡珂是小仙女儿',
+      data: '11376569',
       success: function (res) {
         wx.getClipboardData({
           success: function (res) {
